@@ -1,26 +1,40 @@
-# Define population sizes for the UK countries and Zhejiang-neighbouring provinces
-uk_countries = {
-    'England': 57.11,
-    'Wales': 3.13,
-    'Northern Ireland': 1.91,
-    'Scotland': 5.45
-}
+#  Define a dictionary to store programming languages and user percentages
+#  Print the original dictionary
+#  Create a bar plot using matplotlibExtract languages and their percentages
+#  Add title and labels of the bars
+#  Display the bar plot
+#  Print the percentage of developers who use a specified language
 
-zhejiang_neighbours = {
-    'Zhejiang': 65.77,
-    'Fujian': 41.88,
-    'Jiangxi': 45.28,
-    'Anhui': 61.27,
-    'Jiangsu': 85.15
-}
-# Print the population of each country/neighboured provences
-for x in uk_countries:
-    print(x,'has',uk_countries[x],'million people')
-print('')
-for y in zhejiang_neighbours:
-    print(y,'has',zhejiang_neighbours[y],'million people')
 
-UK_countries = [57.11, 3.13, 1.91, 5.45]
-CN_provinces = [65.77, 41.88, 45.28, 61.27, 5.15]
+lang_data = {
+    'JavaScript': 62.3,
+    'HTML': 52.9,
+    'Python': 51,
+    'SQL': 51,
+    'TypeScript': 38.5
+}  # Define a dictionary to store programming languages and their user percentages
 
+# Print the original dictionary
+print("Original dictionary:")
+print(lang_data)
+
+# Create a bar plot using matplotlib
 import matplotlib.pyplot as plt
+
+# Extract languages and their corresponding user percentages to set as X/Y axis
+languages = list(lang_data.keys())
+users = list(lang_data.values())
+
+# Create the bar plot 
+p1 = plt.bar(languages, users, color='blue')
+# Add title and labels with set properties
+plt.title('Programming Language Popularity', fontsize=16)
+plt.xlabel('Language', fontsize=14, color='red')
+plt.ylabel('Users in %', color='blue', fontsize=14)
+# (Here's a try to see whether the order influences or not.
+# --It shows not,but some properties need to be in order.)
+
+the_language = 'Python' # use 'Python' users as an example
+print('The percentage of Python user is',lang_data ['Python'], '%')
+
+plt.show()
