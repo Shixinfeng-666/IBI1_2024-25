@@ -32,8 +32,16 @@ plt.title('Programming Language Popularity', fontsize=16)
 plt.xlabel('Language', fontsize=14, color='red')
 plt.ylabel('Users in %', color='blue', fontsize=14)
 # (Here's a try to see whether the order influences or not.-- It shows not)
+plt.show()
 
 the_language = 'Python' # use 'Python' users as an example
-print('The percentage of Python user is',lang_data ['Python'], '%')
+if the_language in lang_data:
+    print('The percentage of Python user is',lang_data ['Python'], '%')
+else:
+    print(f'{the_language} is not in the dictionary')
 
-plt.show()
+the_language = 'Pycharm'
+if the_language in lang_data:
+    print('The percentage of Python user is',lang_data ['Python'], '%')
+else:
+    print(f'{the_language} is not in the dictionary')

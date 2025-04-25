@@ -1,0 +1,8 @@
+Question: How has China's DALYs changed compared to the UK over time?
+
+Code Location: Line 58 onwards in dalys.py
+
+Result Discussion:
+1. China's DALYs were much higher than the UK's in 1990 (~35k vs ~23k) but decreased sharply over time.
+2. The UK's DALYs remained relatively stable (~23k-24k).
+3. By 2019, China's DALYs (~17k) were lower than the UK's (~23k), likely due to rapid improvements in healthcare and living standards in China.
