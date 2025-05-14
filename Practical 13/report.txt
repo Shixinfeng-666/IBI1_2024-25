@@ -1,0 +1,16 @@
+P04179 SODm_HUMAN:
+Length of human SOD2: 222
+Subcellular Location: Mitochondria matrix
+Percentage range: 86~99.5%
+
+
+Human vs Mouse:
+BLOSUM62 Score: 1097.0
+Percent Identity: 90.1%
+Human vs Random:
+BLOSUM62 Score: -238.0
+Percent Identity: 4.5%
+Mouse vs Random:
+BLOSUM62 Score: -236.0
+Percent Identity: 4.5%
+-- The sequences of Human and Mouse are most closely related.
