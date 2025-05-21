@@ -1,4 +1,4 @@
 Hello, my name is Wu Shaoran.
 I like drinking tea and eating pasta.
-I am enjoying learning IBI1 in person again 
+I am enjoying learning IBI1 in person。 
 I am happy that I can push my repo from Visual Studio Code to GitHub
