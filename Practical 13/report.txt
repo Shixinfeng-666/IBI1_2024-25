@@ -1,8 +1,8 @@
 P04179 SODm_HUMAN:
 Length of human SOD2: 222
 Subcellular Location: Mitochondria matrix
-Percentage range: 86~99.5%
-
+Range of the percentage identity: 58.1~100%
+Percentage of the best alignment with the mouse SOD2: 90.1%
 
 Human vs Mouse:
 BLOSUM62 Score: 1097.0

@@ -1,0 +1,4 @@
+This is an example file for reflection in IBI1_2024-25.
+During this course, I have learnt how to manage my work through VScode, and how to commit changes, how to clone online files etc.
+The challenge I faced was how to merge the branches or keep Github related to the local (get solved now).
+I found that sometimes committing needs a long time, I'll change to a private VPN based in US.

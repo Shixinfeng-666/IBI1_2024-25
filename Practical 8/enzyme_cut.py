@@ -1,5 +1,5 @@
 
-
+# define the cut function
 def enzyme_cut(seq,cut):
     for i in seq.strip():
         if i not in ('A','T','C','G'): 
@@ -19,7 +19,7 @@ def enzyme_cut(seq,cut):
             position_list.append(i)
     return position_list
             
-
+# inate the target and indentical sequence
 a = str(input('Please enter the target sequence')).strip()
 b = str(input('Please choose the four digit indentical sequence')).strip()
 

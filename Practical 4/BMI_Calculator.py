@@ -1,4 +1,4 @@
-''''
+'''
 input the weight and height of the participant
 calculate the BMI of the participant
 print out the BMI of the participant
